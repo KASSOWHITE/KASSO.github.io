@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PAGE NOT FOUND</title>
+    <style>
+      body, html {
+        margin: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: lightpink;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+      }
+
+      p{
+        background-color: rgba(94, 94, 94, 0.137);
+      }
+
+      canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      #error-message {
+        z-index: 1;
+        text-align: center;
+      }
+      #home-button {
+        z-index: 1;
+        position: absolute;
+        top: 20px;
+        background-color: lightpink;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <a id="home-button" href="http://rileykasso.com">Back Home</a>
+    <div id="error-message">
+      <h1>404 Error</h1>
+      <p>The page you are looking for could not be found.</p>
+    </div>
+    <script type="module" src="./error.js"></script>
+  </body>
+</html>
