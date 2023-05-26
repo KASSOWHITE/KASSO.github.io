@@ -1,7 +1,7 @@
 
   // Replace with your own YouTube API key and playlist ID
   const apiKey = 'AIzaSyBvv8LZWI2Q5G1k66dyvdFMZeQQSjn_vuc';
-const playlistUrl = 'https://www.youtube.com/watch?v=o9kwjQJQibY&list=PLIc8_OU3BV-uCiV36yXWhjfCEdpbcrjBi&ab_channel=Whitey-Topic';
+const playlistUrl = 'https://youtube.com/playlist?list=PLMAn9UGCU30JItjTmyjCOZ09KqLt1FBN_';
 
 const playlistId = playlistUrl.match(/list=([\w-]+)/)[1];
 
